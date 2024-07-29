@@ -240,6 +240,28 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
 }
 
+/*4section*/
+.portfolio {
+    padding: 120px 0;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.type-service {
+    width: calc((100% - 48px) / 3);
+}
+
+.type-service-nav {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 
 /*fuoter*/
 
