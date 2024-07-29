@@ -148,19 +148,37 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #404bbf;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .container-description {
     display: flex;
-    gap: 24px;
     padding: 120px 0;
 }
 
 .description {
     display: flex;
+    gap: 24px;
+}
+
+.description-text {
+    width: calc((100% - 3 * 24) / 4);
 }
 
 
-
 .description-title {
+    margin-bottom: 8px;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
