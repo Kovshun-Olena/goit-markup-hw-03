@@ -86,7 +86,11 @@ h1, h2, h3, h4, h5, h6, p {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
-}   
+}  
+
+.nav-link.current {
+    position: relative;
+}
 
 .contacts {
     font-style: normal;
@@ -105,7 +109,8 @@ h1, h2, h3, h4, h5, h6, p {
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:focus,
+.nav-link.current {
     color: #404bbf;
 }
 
@@ -114,6 +119,8 @@ h1, h2, h3, h4, h5, h6, p {
 .box {
     padding: 188px 0;
     background: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .title-box {
@@ -123,6 +130,9 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
 }
 
 .button-box {
@@ -139,6 +149,8 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .button-box:hover,
@@ -263,7 +275,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 
-/*fuoter*/
+/*footer*/
 
 .page-footer {
     background-color: #2e2f42;
@@ -278,6 +290,7 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    width: 264px;
 }
 
 .footer-logo .logo-part {
@@ -288,3 +301,4 @@ h1, h2, h3, h4, h5, h6, p {
     display: inline-block;
     margin-bottom: 16px;
 }
+
